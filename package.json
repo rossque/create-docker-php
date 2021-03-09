@@ -1,0 +1,24 @@
+{
+  "name": "create-docker-php",
+  "description": "Install Docker-php using npx, to create different versions of PHP using Docker.",
+  "version": "1.0.0",
+  "bin": "./index.js",
+  "scripts": {},
+  "author": "rossque",
+  "license": "MIT",
+  "keywords": [
+    "docker",
+    "php",
+    "bedrock",
+    "laravel"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rossque/create-docker-php.git"
+  },
+  "dependencies": {
+    "execa": "^4.0.3",
+    "inquirer": "^7.3.1",
+    "listr": "^0.14.3"
+  }
+}
